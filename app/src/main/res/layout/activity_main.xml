@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity"
+    android:theme="@style/AppTheme">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Women Security App"
+        android:textAlignment="center"
+        android:textColor="#490C21"
+        android:textSize="50dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yuor Personal Bodyguard"
+        android:textColor="#FF5722"
+        android:textStyle="italic"
+        android:textSize="50dp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_bt1"
+        android:text="Police"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginVertical="40dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_bt2"
+        android:text="User"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+
+</LinearLayout>

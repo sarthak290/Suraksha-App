@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Suraksha</string>
+    <string name="title_activity_policehome">Map</string>
+    <string name="title_activity_userhome">Map</string>
+</resources>
